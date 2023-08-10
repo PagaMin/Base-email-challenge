@@ -1,0 +1,71 @@
+@media (max-width: 1445px) {
+    .text-por-baixo {
+        margin: 0 auto;
+    }
+    .arrow {
+        left: 400px;
+        top: 15px;
+    }
+    .left {
+        padding: 0;
+        width: 50%;
+    }
+
+    .logo {
+        margin-top: 10px;
+    }
+
+    main {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+
+        align-items: center;
+    }
+
+    .hero-desktop {
+        display: none;
+    }
+
+    .hero-mobile {
+        width: 375px;
+        height: 250px;
+        display: block;
+        margin: 3rem auto;
+    }
+
+    h1,
+    strong,
+    p {
+        margin: 2.5rem auto 0 auto;
+    }
+
+    p,
+    h1,
+    strong {
+        width: 100%;
+    }
+
+    input {
+        margin: 1rem auto;
+        width: 18.75rem;
+    }
+}
+
+@media (max-width: 1193px) {
+    .arrow {
+        left: 350px;
+    }
+}
+
+@media (max-width: 920px) {
+    .arrow {
+        left: 310px;
+    }
+}
+
+@media (max-width: 770px) {
+    .arrow {
+        left: 270px;
+    }
+}
